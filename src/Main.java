@@ -6,7 +6,7 @@ public class Main {
         String playerTwo = "";
         String more = "y";
         Scanner in = new Scanner(System.in);
-//
+
         while (more.equalsIgnoreCase("y")) {
             System.out.println("Player One enter, your move: [R P S] ");
             playerOne = in.next();
